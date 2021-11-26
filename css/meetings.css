@@ -1,0 +1,73 @@
+:root {
+  --gray-text: #514f4d;
+}
+
+.hero.container {
+  background-image: url(../images/meetings-hero.jpg);
+  min-height: 50vh;
+}
+
+.meetings .container {
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
+
+.meetings-header {
+  margin: 2rem 0;
+}
+
+.meetings h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 5px;
+  margin-bottom: 1rem;
+}
+
+.meetings-header .cta-btn {
+  font-size: 1rem;
+  color: var(--gray-text);
+}
+
+.meetings-quote {
+  font-family: "Yeseva One", cursive;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--brown);
+}
+
+.meetings-text,
+.meeting-card h2,
+.meeting-card p {
+  color: var(--gray-text);
+  margin: 1.5rem 0;
+}
+
+.meeting-card {
+  height: 650px;
+  width: 400px;
+}
+
+.meeting-card .cta-btn {
+  font-size: 1.2rem;
+}
+
+.meeting-card p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.meeting-card h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.meeting-card img {
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  place-items: center;
+  grid-gap: 1rem;
+}
